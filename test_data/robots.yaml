@@ -1,27 +1,27 @@
 robots:
-  - app_id: "cli_a8ee0c6a92e7501c"
-    app_secret: "9kbasiKxCyonOjJ2BCfXHcaKLKPA4fJT"
+  - app_id: "cli_a8ff4c917710d013"
+    app_secret: "c5pZMAetY2a7UJjxEcCTCcEtcatDramY"
     tags:
       name: "1"
       desc: "全功能"
       owner: chenzhihao
 
-  - app_id: "cli_a8e0f7e7cbfb1013"
-    app_secret: "0TGhLpe3L1wq1OGfnqwTddGH1IOEhxsH"
+  - app_id: "cli_a8ff4ce0d9fb5013"
+    app_secret: "nSdUkpVFSshAuYybnq1TsdDnpJlIP0nJ"
     tags:
       name: "czh2"
       desc: "无权限，但有机器人能力"
       owner: chenzhihao
 
-  - app_id: "cli_a8e0f325fae5100d"
-    app_secret: "kB0DWoplOTY0lkODgs7ICbPS1VdIYMCY"
+  - app_id: "cli_a8ff4d38a595900e"
+    app_secret: "QYKM6u7qUWMod2aHXaPLpghXf8akeqap"
     tags:
       name: "czh3"
       desc: "未开启机器人能力"
       owner: chenzhihao
 
-  - app_id: "cli_a8e15047e47c900e"
-    app_secret: "nW4zT4mWeHLyYDExLBsHvfxHjBiVGAyp"
+  - app_id: "cli_a8ff4d22ded0900e"
+    app_secret: "eo7z6yNRg6AlFh56JW0udcC8e1M3gYwO"
     tags:
       name: "czh4"
       desc: "无机器人能力，也没有权限"
@@ -35,7 +35,7 @@ robots:
       owner: wankaiyi
 
 receivers:
-  - receiver_id: ou_adf4e416e22c12c5d4b40e347315f68c
+  - receiver_id: ou_3fd527ce87cde8ed0e0c5e157263f88d
     tags:
       状态: "在职"
       name: "chenzhihao"
@@ -43,7 +43,7 @@ receivers:
       机器人1: "可见"
     receiver_id_type: "open_id"
 
-  - receiver_id: ou_c8748ca66d4e17d20a34f12b62a6191d
+  - receiver_id: ou_bb81b36306b5d2f0f4fab24f76214d4b
     tags:
       状态: "在职"
       name: "wankaiyi"
@@ -51,40 +51,40 @@ receivers:
       机器人1: "不可见"
     receiver_id_type: "open_id"
 
-  - receiver_id: ou_530eb3559e88330989945fa8114edc88
+  - receiver_id: ou_ea148616d28408f0f8151f4f89d188c6
     tags:
       状态: "离职"
       name: "heyunjing"
       性质: 人
     receiver_id_type: "open_id"
 
-  - receiver_id: oc_a9bc91faf86be9ea96d20e16e12fd57e
+  - receiver_id: oc_50de9e6ee921d626c1858f6ceb8feda1
     tags:
       性质: 群聊
       群名: "历史群1"
     receiver_id_type: "chat_id"
 
-  - receiver_id: "oc_c9314af7583d16ba886cca1a8644daaf"
+  - receiver_id: "oc_5652f01cdf985b81fcf0d15d1645b3cd"
     tags:
       性质: 群聊
       群名: "话题"
     receiver_id_type: "chat_id"
 
-  - receiver_id: "ou_a727999dd34a7de8c77ab4f86bf709cb"
+  - receiver_id: "ou_8d65e5aa6445c4afdd0cf660034bacb2"
     tags:
       状态: "在职"
       性质: 人
       name: "liyongsheng"
       机器人1: "可见"
     receiver_id_type: "open_id"
-  - receiver_id: "ou_a727999dd34a7de8c77ab4f86bf709cb"
+  - receiver_id: "ou_ec58aaedca8d834804e202c70bff0468"
     tags:
       状态: "在职"
       性质: 人
       name: "houyongliang"
       机器人1: "可见"
     receiver_id_type: "open_id"
-  - receiver_id: oc_8ef3bb6838aa4aaefe3da8cae0c5fd6c
+  - receiver_id: oc_583406bfbf2073695a852bd6b6a46709
     tags:
       性质: 群聊
       群名: "禁言"

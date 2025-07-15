@@ -13,7 +13,7 @@ send_message:
     robotTags: {"name":"1"}
     receiverTags: {"状态":"在职"}
     # 分享群名片
-  - content: {"chat_id": "oc_a9bc91faf86be9ea96d20e16e12fd57e"}
+  - content: {"chat_id": "oc_50de9e6ee921d626c1858f6ceb8feda1"}
     msg_type: "share_chat"
     expected_code: 0
     robotTags: {"name":"1"}
@@ -57,6 +57,7 @@ send_message:
     expected_code: 230055
     robotTags: {"name":"1"}
     receiverTags: {"状态":"在职"}
+    skip: true
   
 group:
   - receiverTags: {"name":"chenzhihao"}

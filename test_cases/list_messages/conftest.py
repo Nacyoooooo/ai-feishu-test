@@ -42,7 +42,7 @@ def groupReceiver():
     receiver = Receiver(receiver_id=receiversData[0]['receiver_id'], tags=receiversData[0]['tags'],receiver_id_type=receiversData[0]['receiver_id_type'])
 
     group_api=GroupAPI(robot.access_token)
-    createResp=group_api.create_group(user_id_list=[receiver.receiver_id],bot_id_list=[robot.app_id,'cli_a8e0f7e7cbfb1013'])
+    createResp=group_api.create_group(user_id_list=[receiver.receiver_id],bot_id_list=[robot.app_id,robotsData[1]['app_id']])
     
     receiver = Receiver(receiver_id=createResp['data']['chat_id'], tags=[],receiver_id_type='chat_id')
 

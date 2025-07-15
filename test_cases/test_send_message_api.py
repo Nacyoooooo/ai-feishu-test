@@ -16,6 +16,8 @@ from test_data import read_data_from_yaml
 ))
 def test_send_message2(robot_cluster: Cluster, send_message_data: dict[str, Any], performance_monitor):
     """测试发送消息"""
+    import time
+    time.sleep(3)
     if send_message_data.get('skip', False):
         pytest.skip("skip")
     receivers = robot_cluster.getReceiver(tags=send_message_data['receiverTags'], max=1)
@@ -87,6 +89,8 @@ def test_message_rate_limit(robot_cluster: Cluster, rates: dict[str, Any], perfo
 ))
 def test_message_same(robot_cluster: Cluster, same: dict[str, Any], performance_monitor):
     """测试发送消息的重复"""
+    import time
+    time.sleep(3)
     receivers = robot_cluster.getReceiver(tags=same['receiverTags'], max=1)
     robots = robot_cluster.getRobot(tags=same['robotTags'], max=1)
     content = {"text": "查重"}
